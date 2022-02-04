@@ -1,4 +1,3 @@
-import turtle
 from Paddle import Paddle
 from Screen import Screen
 from Ball import Ball
@@ -19,7 +18,6 @@ class Pong:
           
         while True:
                 screen.wn.update()                
-                #move ball
                 ball.move()
 
 
